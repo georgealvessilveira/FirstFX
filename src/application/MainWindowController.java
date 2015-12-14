@@ -18,5 +18,6 @@ public class MainWindowController {
 	public void handleButton() {
 		String text = field.getText();
 		this.label.setText(text);
+		this.field.clear();
 	}
 }
